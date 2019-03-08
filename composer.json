@@ -8,5 +8,8 @@
         "files": [
             "helpers//functions.php"
         ]
+    },
+    "require": {
+        "symfony/var-dumper": "^4.2"
     }
 }
