@@ -1,0 +1,52 @@
+body {
+    background-color: #f0f0f0;
+}
+
+.package-name {
+    font-weight: bold;
+    font-size: 20px;
+    color: #1c7430;
+}
+
+.package-price {
+    font-size: 25px;
+    color: #005cbf;
+}
+
+.package-location {
+    font-size: 16px;
+    color: #6c757d;
+}
+
+.product-img{
+    height: 160px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.starrating > input {display: none;}  /* Remove radio buttons */
+
+.starrating > label:before {
+    content: "\f005"; /* Star */
+    margin: 2px;
+    font-size: 26px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: bold;
+    display: inline-block;
+}
+
+.starrating > label
+{
+    color: #222222; /* Start color when not clicked */
+}
+
+.starrating > input:checked ~ label
+{ color: #ffca08 ; } /* Set yellow color when star checked */
+
+.starrating > input:hover ~ label
+{ color: #ffca08 ;  }/* Set yellow color when star hover */
+
+.rating{
+    font-size: 46px;
+    font-weight: bold;
+}
